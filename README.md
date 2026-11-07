@@ -6,20 +6,21 @@ kernel and **RedMagic Tools** for the hardware extras (cooling fan, side slider,
 modes, charge separation).
 
 <p>
+  <img src="screenshots/evox-lock.png" width="24%" alt="Lock screen">
   <img src="screenshots/evox-home.png" width="24%" alt="Home screen">
   <img src="screenshots/evox-qs.png" width="24%" alt="Quick settings">
+  <img src="screenshots/evox-aod.png" width="24%" alt="Always-on display while charging">
+</p>
+<p>
   <img src="screenshots/evox-settings.png" width="24%" alt="Settings">
   <img src="screenshots/evox-evolver.png" width="24%" alt="The Evolver, Evolution X's customization settings">
-</p>
-<p>
   <img src="screenshots/evox-about.png" width="24%" alt="About phone">
   <img src="screenshots/evox-about2.png" width="24%" alt="About phone: Android 16, build number">
-  <img src="screenshots/evox-ksu.png" width="24%" alt="KernelSU-Next manager: built-in, SuSFS v2.3.0, Zygisk Next">
-  <img src="screenshots/evox-parts1.png" width="24%" alt="RedMagic Tools: performance mode, ambient display, charging">
 </p>
 <p>
+  <img src="screenshots/evox-ksu.png" width="24%" alt="KernelSU-Next manager: built-in, SuSFS v2.3.0, Zygisk Next">
+  <img src="screenshots/evox-parts1.png" width="24%" alt="RedMagic Tools: performance mode, ambient display, charging">
   <img src="screenshots/evox-parts2.png" width="24%" alt="RedMagic Tools: side slider, cooling fan, Debian">
-  <img src="screenshots/evox-aod.png" width="24%" alt="Always-on display while charging">
 </p>
 
 > [!IMPORTANT]
