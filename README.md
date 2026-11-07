@@ -19,6 +19,7 @@ modes, charge separation).
 </p>
 <p>
   <img src="screenshots/evox-parts2.png" width="24%" alt="RedMagic Tools: side slider, cooling fan, Debian">
+  <img src="screenshots/evox-aod.png" width="24%" alt="Always-on display while charging">
 </p>
 
 > [!IMPORTANT]
