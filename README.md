@@ -6,9 +6,19 @@ kernel and **RedMagic Tools** for the hardware extras (cooling fan, side slider,
 modes, charge separation).
 
 <p>
-  <img src="screenshots/evox-parts1.png" width="30%" alt="RedMagic Tools: performance mode, ambient display, charging">
-  <img src="screenshots/evox-parts2.png" width="30%" alt="RedMagic Tools: side slider, cooling fan, Debian">
-  <img src="screenshots/evox-evolver.png" width="30%" alt="The Evolver, Evolution X's customization settings">
+  <img src="screenshots/evox-home.png" width="24%" alt="Home screen">
+  <img src="screenshots/evox-qs.png" width="24%" alt="Quick settings">
+  <img src="screenshots/evox-settings.png" width="24%" alt="Settings">
+  <img src="screenshots/evox-evolver.png" width="24%" alt="The Evolver, Evolution X's customization settings">
+</p>
+<p>
+  <img src="screenshots/evox-about.png" width="24%" alt="About phone">
+  <img src="screenshots/evox-about2.png" width="24%" alt="About phone: Android 16, build number">
+  <img src="screenshots/evox-ksu.png" width="24%" alt="KernelSU-Next manager: built-in, SuSFS v2.3.0, Zygisk Next">
+  <img src="screenshots/evox-parts1.png" width="24%" alt="RedMagic Tools: performance mode, ambient display, charging">
+</p>
+<p>
+  <img src="screenshots/evox-parts2.png" width="24%" alt="RedMagic Tools: side slider, cooling fan, Debian">
 </p>
 
 > [!IMPORTANT]
@@ -25,23 +35,21 @@ modes, charge separation).
 | Fingerprint | Under-display sensor, also from the always-on display |
 | Calls and data | Calls, VoLTE, SMS, mobile data, both SIMs |
 | Audio | Speakers with DTS sound (switches itself off on Bluetooth so earbuds sound right), call audio, louder media volume curve |
-| Wi-Fi and Bluetooth | Wi-Fi, Bluetooth audio (classic and LE audio) |
+| Wi-Fi, Bluetooth, NFC | Wi-Fi, Bluetooth audio (classic and LE audio), NFC |
 | Cameras | All rear cameras (main, ultra-wide, macro) through the stock RedMagic camera app |
 | RedMagic hardware | Cooling fan (manual, in games, while fast charging), side slider (flashlight and more), performance modes, temperatures |
 | Root | KernelSU-Next with SUSFS built into the kernel (install the KernelSU Next manager app) |
-| Play Integrity | Strong integrity is possible with your own keybox and the usual modules (no keybox is included) |
+| Play Integrity and Wallet | Strong integrity and Google Wallet tap-to-pay work with your own keybox and the usual modules (no keybox is included) |
 | Debian | **Restart into Debian** in RedMagic Tools, when [Debian](https://github.com/devnotcc/nx789j-installer) is installed |
 
 ## What doesn't (yet)
 
-- **Google Wallet tap-to-pay** doesn't work. Google's payment service doesn't trust a custom
-  ROM's attestation. Adding cards and paying online work.
+- **Not ported yet:** the shoulder triggers and the RGB lighting.
 - **Bluetooth call audio is sometimes silent**, seen with one earbud in and music playing when
   the call comes in. Being looked into.
 - The **Restart into Debian** description still says a plain restart brings you back to Android;
   since Debian 13-20261107 a plain restart stays in Debian (use **Restart into Android** in
   Debian's app menu).
-- Not checked yet: NFC payments aside from Wallet, the shoulder triggers, wireless charging.
 
 Found something else? [Open an issue](../../issues) with what you did and, if you can, a
 `adb logcat` from when it happened.
