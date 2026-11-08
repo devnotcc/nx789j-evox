@@ -65,7 +65,10 @@ Don't update the stock firmware to 11.0.13 or later before unlocking: the thread
 it blocks the unlock.
 
 Tested on stock firmware **RedMagicOS 11.0.4** (baseband `...1.82720.133`). Firmware isn't
-replaced by this ROM; other versions aren't tested yet.
+replaced by this ROM. **RedMagicOS 11.0.5** (baseband `...1.82720.138`) is allowed as
+experimental: the phone keeps its newer modem firmware with this ROM's 11.0.4 radio libraries,
+so calls, mobile data or SIM detection might not work. Make a full backup first (the installer's
+Backup page) and please report how it goes. Other versions aren't tested.
 
 ### Recommended: the installer app
 
